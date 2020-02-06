@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+  <link rel="styleSheet" type="text/css" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<h1>I am formatted with a linked style sheet</h1>
+<p>Me too!</p>
+
 </body>
 </html>
