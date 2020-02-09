@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("https://kit.fontawesome.com/f175822c0a.js");
 
 /*
 	Directive by HTML5 UP
@@ -2211,6 +2212,16 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
+			
+		.image.feature-alt {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.feature-alt img {
+				display: block;
+				width: 100%;
+			}
 
 		.image.icon {
 			-moz-perspective: 500px;
@@ -2614,6 +2625,7 @@ input, select, textarea {
 	.feature {
 		position: relative;
 		height: 20em;
+		
 	}
 
 		.feature:after {
@@ -2683,6 +2695,7 @@ input, select, textarea {
 
 		.feature.right {
 			text-align: right;
+			
 		}
 
 			.feature.right .image {
@@ -2699,6 +2712,106 @@ input, select, textarea {
 			}
 
 		.feature.long .content {
+			padding-top: 0;
+		}
+		
+/* Feature Alt */
+
+	.feature-alt {
+		position: relative;
+		/* width: 16.66666666em; */
+		height: 16.66666666em;
+	}
+
+		.feature-alt:after {
+			clear: both;
+			content: '';
+			display: block;
+		}
+
+		.feature-alt h3, .feature-alt h4, .feature-alt h5, .feature-alt h6 {
+			text-align: inherit;
+		}
+
+		.feature-alt .image {
+			display: inline-block;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			border-radius: 100%;
+			width: 50%;
+		}
+
+			.feature-alt .image img {
+				display: block;
+				min-height: 100%;
+				min-width: 100%;
+				border-radius: 100%;
+				height: 2.35em;
+				width: 2.35em;
+				position: absolute;
+			}
+
+		.feature-alt:before {
+			background: blue;
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+
+		.feature-alt .content {
+			display: inline-block;
+			padding: 3.5em;
+			vertical-align: middle;
+			width: 48%;
+		}
+
+			.feature-alt .content h3 {
+				margin-bottom: 0.5em;
+			}
+
+			.feature-alt .content :last-child {
+				margin: 0;
+			}
+
+		.feature-alt.left {
+			text-align: left;
+			margin-left: 33.33333%;
+		}
+
+			.feature-alt.left .image {
+				float: left;
+			}
+
+				.feature-alt.left .image img {
+					right: 0;
+					top: 0;
+				}
+
+			.feature-alt.left .content {
+				padding-right: 0;
+			}
+
+		.feature-alt.right {
+			text-align: right;
+			margin-right: 33.33333%;
+		}
+
+			.feature-alt.right .image {
+				float: right;
+			}
+
+				.feature-alt.right .image img {
+					left: 0;
+					top: 0;
+				}
+
+			.feature-alt.right .content {
+				padding-left: 0;
+			}
+
+		.feature-alt.long .content {
 			padding-top: 0;
 		}
 
@@ -2775,11 +2888,6 @@ input, select, textarea {
 			text-align: center;
 			width: 2.35em;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
 
 		#header h1 {
 			font-size: 2.5em;
@@ -3017,6 +3125,16 @@ input, select, textarea {
 				.feature .content {
 					padding: 2.5em;
 				}
+				
+		/* feature-alt */
+
+			.feature-alt {
+				height: 18em;
+			}
+
+				.feature-alt .content {
+					padding: 2.5em;
+				}
 
 		/* Header */
 
@@ -3170,6 +3288,36 @@ input, select, textarea {
 					text-align: center;
 					width: 100%;
 				}
+				
+		/* feature-alt */
+
+			.feature-alt {
+				background: #ffffff;
+				display: block;
+				height: auto;
+				margin-bottom: 2em;
+			}
+
+				.feature-alt:last-child {
+					margin-bottom: 0;
+				}
+
+				.feature-alt:before, .feature-alt:after {
+					display: none;
+				}
+
+				.feature-alt .image {
+					float: none;
+					height: 15em;
+					width: 100%;
+				}
+
+				.feature-alt .content {
+					border: solid 1px rgba(224, 224, 224, 0.75);
+					padding: 2em !important;
+					text-align: center;
+					width: 100%;
+				}
 
 		/* Header */
 
@@ -3263,6 +3411,16 @@ input, select, textarea {
 			}
 
 				.feature .content {
+					padding: 2em 1em !important;
+				}
+				
+		/* feature-alt */
+
+			.feature-alt {
+				margin-bottom: 1em;
+			}
+
+				.feature-alt .content {
 					padding: 2em 1em !important;
 				}
 
