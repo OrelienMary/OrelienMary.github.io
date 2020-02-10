@@ -2246,6 +2246,7 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
+				opacity: 0;
 			}
 
 			.image.icon:hover:before {
@@ -3456,5 +3457,5 @@ input, select, textarea {
 				#header br {
 					display: none;
 				}
-
+		
 	}
