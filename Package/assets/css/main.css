@@ -2353,6 +2353,7 @@ input, select, textarea {
 			}
 
 		ul.actions.stacked {
+			text-align: center;
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
@@ -3309,8 +3310,8 @@ input, select, textarea {
 
 				.feature-alt .image {
 					float: none;
-					height: 15em;
-					width: 100%;
+					/* height: 15em; */
+					/* width: 100%; */
 				}
 
 				.feature-alt .content {
