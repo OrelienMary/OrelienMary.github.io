@@ -5,12 +5,14 @@ $(document).ready(function () {
   var player4 = $('#inOverlay4')[0];
   var player5 = $('#inOverlay5')[0];
   var player6 = $('#inOverlay6')[0];
+  var player7 = $('#inOverlay7')[0];
   $f(player).addEvent('ready', ready); 
   $f(player2).addEvent('ready', ready); 
   $f(player3).addEvent('ready', ready); 
   $f(player4).addEvent('ready', ready); 
   $f(player5).addEvent('ready', ready); 
   $f(player6).addEvent('ready', ready); 
+  $f(player7).addEvent('ready', ready); 
   
   
   function addEvent(element, eventName, callback) {
@@ -48,4 +50,5 @@ function mouseDown() {
 function mouseUp() {
   document.getElementById("myP").style.color = "green";
 }
+
 

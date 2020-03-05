@@ -183,6 +183,8 @@ input, select, textarea {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
+	
+	html{scroll-behavior:smooth}
 
 /* Container */
 
@@ -2624,7 +2626,7 @@ input, select, textarea {
 				
 /* Overlay */
 
-	div#overlay, div#overlay2 , div#overlay3, div#overlay4, div#overlay5, div#overlay6{
+	div#overlay, div#overlay2 , div#overlay3, div#overlay4, div#overlay5, div#overlay6, div#overlay7{
     display: none;
     z-index: 2;
     background: #FFF;
@@ -2933,6 +2935,262 @@ input, select, textarea {
 		}
 
 		#header p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+		
+		/* Header */
+
+/*
+	#header-alt {
+		background-attachment: scroll,							scroll,					fixed,                 scroll;
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header-alt.jpg"), url("images/bottom-3200.svg");
+		background-position: bottom center,					top left,				center center,              top center;
+		background-repeat: repeat-x,						repeat,					no-repeat,                 repeat-x;
+		background-size: 3200px 460px,					auto,					cover,                   3200px 460px;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt:before, #header-alt:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt strong, #header-alt b {
+			color: #ffffff;
+		}
+
+		#header-alt h1, #header-alt h2, #header-alt h3, #header-alt h4, #header-alt h5, #header-alt h6 {
+			color: #ffffff;
+		}
+
+		#header-alt input[type="submit"],
+		#header-alt input[type="reset"],
+		#header-alt input[type="button"],
+		#header-alt .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+		*/
+		
+		/* Header */
+
+	#header-alt1 {
+		background-attachment: scroll,					fixed;
+		background-image:url("images/overlay.png"), url("../../images/header-alt1.jpg");
+		background-position: top left,				center center; 
+		background-repeat: repeat,					no-repeat;
+		background-size: auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt1:before, #header-alt1:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt1:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt1:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt1 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt1 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt1 strong, #header-alt1 b {
+			color: #ffffff;
+		}
+
+		#header-alt1 h1, #header-alt1 h2, #header-alt1 h3, #header-alt1 h4, #header-alt1 h5, #header-alt1 h6 {
+			color: #ffffff;
+		}
+
+		#header-alt1 input[type="submit"],
+		#header-alt1 input[type="reset"],
+		#header-alt1 input[type="button"],
+		#header-alt1 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt1 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt1 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt1 p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+
+
+#header-alt2 {
+		background-attachment: scroll,					fixed;
+		background-image:url("images/overlay.png"), url("../../images/header-alt2.png");
+		background-position: top left,				center center; 
+		background-repeat: repeat,					no-repeat;
+		background-size: auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt2:before, #header-alt2:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt2:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt2:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt2 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt2 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt2 strong, #header-alt2 b {
+			color: #ffffff;
+		}
+
+		#header-alt2 h1, #header-alt2 h2, #header-alt2 h3, #header-alt2 h4, #header-alt2 h5, #header-alt2 h6 {
+			color: #ffffff;
+		}
+
+		#header-alt2 input[type="submit"],
+		#header-alt2 input[type="reset"],
+		#header-alt2 input[type="button"],
+		#header-alt2 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt2 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt2 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt2 p {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
