@@ -1,23 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200px" height="460px" viewBox="0 0 3200 460" zoomAndPan="disable">
-
-    <style type="text/css"><![CDATA[
-		line { stroke-width: 2px; }
-		line.upper { stroke: rgba(224,224,224,0.15); }
-		line.lower { stroke: rgba(224,224,224,0.75); }
-		polygon.one { fill: #f8f8f8; }
-		polygon.two { fill: #ffffff; }
-    ]]></style>	
-
-	<!-- Backgrounds -->
-		<polygon points="0,50 1600,410 3200,50 3200,460 0,460" class="one" />
-		<polygon points="0,100 1600,460 3200,100 3200,460 0,460" class="two" />
-
-	<!-- Upper lines -->
-		<line x1="0" y1="0" x2="1600" y2="360" class="upper" />
-		<line x1="1600" y1="360" x2="3200" y2="0" class="upper" />
-
-	<!-- Lower Lines -->
-		<line x1="0" y1="100" x2="1600" y2="460" class="lower" />
-		<line x1="1600" y1="460" x2="3200" y2="100" class="lower" />
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" zoomAndPan="disable"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 3200 460"
+	 style="enable-background:new 0 0 3200 460;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F8F8F8;}
+	.st1{fill:#183060;}
+	.st2{fill:none;}
+</style>
+<polygon class="st0" points="0,50 1600,410 3200,50 3200,460 0,460 "/>
+<polygon class="st1" points="0,100 1600,460 3200,100 3200,460 0,460 "/>
+<line class="st2" x1="0" y1="0" x2="1600" y2="360"/>
+<line class="st2" x1="1600" y1="360" x2="3200" y2="0"/>
+<line class="st2" x1="0" y1="100" x2="1600" y2="460"/>
+<line class="st2" x1="1600" y1="460" x2="3200" y2="100"/>
 </svg>
