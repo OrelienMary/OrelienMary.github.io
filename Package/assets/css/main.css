@@ -3201,6 +3201,89 @@ input, select, textarea {
 			margin: 0.25em 0 0 0;
 		}
 
+#header-alt3 {
+		background-attachment: scroll,					fixed;
+		background-image:url("images/overlay.png"), url("../../images/header-alt3.png");
+		background-position: top left,				center center; 
+		background-repeat: repeat,					no-repeat;
+		background-size: auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt3:before, #header-alt3:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt3:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt3:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt3 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt3 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt3 strong, #header-alt3 b {
+			color: #ffffff;
+		}
+
+		#header-alt3 h1, #header-alt3 h2, #header-alt3 h3, #header-alt3 h4, #header-alt3 h5, #header-alt3 h6 {
+			color: #ffffff;
+		}
+
+		#header-alt3 input[type="submit"],
+		#header-alt3 input[type="reset"],
+		#header-alt3 input[type="button"],
+		#header-alt3 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt3 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt3 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt3 p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+
 /* Footer */
 
 	#footer {
