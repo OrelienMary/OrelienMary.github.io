@@ -3120,7 +3120,7 @@ input, select, textarea {
 
 #header-alt2 {
 		background-attachment: scroll,					fixed;
-		background-image:url("images/overlay.png"), url("../../images/header-alt2.png");
+		background-image:url("images/overlay.png"), url("../../images/header-alt2.jpg");
 		background-position: top left,				center center; 
 		background-repeat: repeat,					no-repeat;
 		background-size: auto,					cover;
