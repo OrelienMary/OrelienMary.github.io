@@ -2684,7 +2684,7 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			width: 50%;
-			cursor: pointer;
+			/*cursor: pointer;*/
 		}
 
 			.feature .image img {
@@ -2692,7 +2692,7 @@ input, select, textarea {
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
-				cursor: pointer;
+				/*cursor: pointer;*/
 			}
 
 		.feature:before {
@@ -2729,7 +2729,7 @@ input, select, textarea {
 				.feature.left .image img {
 					right: 0;
 					top: 0;
-					cursor: pointer;
+					/*cursor: pointer;*/
 				}
 
 			.feature.left .content {
@@ -2748,7 +2748,7 @@ input, select, textarea {
 				.feature.right .image img {
 					left: 0;
 					top: 0;
-					cursor: pointer;
+					/*cursor: pointer;*/
 				}
 
 			.feature.right .content {
@@ -2784,7 +2784,7 @@ input, select, textarea {
 			position: relative;
 			border-radius: 100%;
 			width: 50%;
-			cursor: pointer;
+			/*cursor: pointer;*/
 		}
 
 			.feature-alt .image img {
