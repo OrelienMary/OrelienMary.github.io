@@ -2862,6 +2862,29 @@ input, select, textarea {
 
 /* Header */
 
+	#fixed {
+		z-index: 5;
+		background-color: #183060;
+		position: fixed;
+		background-size: 3200px 115px;
+		padding: 1.25% 15.7% 0 15.7%;
+		/* margin-left: 12.5%; */
+		text-align: center;
+		border-bottom-style: solid;
+		border-bottom-width: 3px;
+		border-bottom-color: #ffffff;
+	}
+	
+	#fixed a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#fixed a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
