@@ -2867,7 +2867,7 @@ input, select, textarea {
 		background-color: #183060;
 		position: fixed;
 		background-size: 3200px 115px;
-		padding: 1.25% 15.7% 0 15.7%;
+		padding: 1.25% 18.2% 0 18.2%;
 		/* margin-left: 12.5%; */
 		text-align: center;
 		border-bottom-style: solid;
@@ -3385,6 +3385,172 @@ input, select, textarea {
 		}
 
 		#header-alt4 p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+		
+#header-alt5 {
+		background-attachment: scroll,					fixed;
+		background-image:url("images/overlay.png"), url("../../images/header-alt5.jpg");
+		background-position: top left,				center center; 
+		background-repeat: repeat,					no-repeat;
+		background-size: auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt5:before, #header-alt5:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt5:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt5:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt5 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt5 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt5 strong, #header-alt5 b {
+			color: #ffffff;
+		}
+
+		#header-alt5 h1, #header-alt5 h2, #header-alt5 h3, #header-alt5 h4, #header-alt5 h5, #header-alt5 h6 {
+			color: #ffffff;
+		}
+
+		#header-alt5 input[type="submit"],
+		#header-alt5 input[type="reset"],
+		#header-alt5 input[type="button"],
+		#header-alt5 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt5 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt5 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt5 p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+		
+#header-alt6 {
+		background-attachment: scroll,					fixed;
+		background-image:url("images/overlay.png"), url("../../images/header.jpg");
+		background-position: top left,				center center; 
+		background-repeat: repeat,					no-repeat;
+		background-size: auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header-alt6:before, #header-alt6:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header-alt6:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header-alt6:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header-alt6 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header-alt6 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header-alt6 strong, #header-alt6 b {
+			color: #ffffff;
+		}
+
+		#header-alt6 h1, #header-alt6 h2, #header-alt6 h3, #header-alt6 h4, #header-alt6 h5, #header-alt6 h6 {
+			color: #ffffff;
+		}
+
+		#header-alt6 input[type="submit"],
+		#header-alt6 input[type="reset"],
+		#header-alt6 input[type="button"],
+		#header-alt6 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header-alt6 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+		#header-alt6 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header-alt6 p {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
