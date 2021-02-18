@@ -2176,13 +2176,13 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:after {
+		/*.image:after {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
-			content: '';
+			/* background-image: url("images/overlay.png"); */
+			/*content: '';
 			display: block;
 			height: 100%;
 			left: 0;
@@ -2190,7 +2190,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		}*/
 
 		.image img {
 			display: block;
@@ -2232,7 +2232,7 @@ input, select, textarea {
 			perspective: 500px;
 		}
 
-			.image.icon:before {
+			/*.image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2249,7 +2249,7 @@ input, select, textarea {
 				width: 1em;
 				z-index: 1;
 				opacity: 0;
-			}
+			}*/
 
 			.image.icon:hover:before {
 				-moz-transform: translateZ(1em);
@@ -2860,15 +2860,23 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+/* Colored Text */ 
+
+	#redColored {
+		color:red;
+	}
+
 /* Header */
 
 	#fixed {
 		z-index: 5;
 		background-color: #183060;
 		position: fixed;
-		background-size: 3200px 115px;
-		padding: 1.25% 18.2% 0 18.2%;
-		/* margin-left: 12.5%; */
+		width: 100%;
+		height: 10%;
+		/*background-size: 100% 10%;*/
+		padding: 1.25% 0% 0% 0%;
+		/*margin-left: 12.5%;*/
 		text-align: center;
 		border-bottom-style: solid;
 		border-bottom-width: 3px;
